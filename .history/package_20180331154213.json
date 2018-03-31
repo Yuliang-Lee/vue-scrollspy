@@ -1,0 +1,42 @@
+{
+  "name": "vue2-scrollspy",
+  "version": "2.1.1",
+  "description": "Scrollspy for Vue2",
+  "main": "./dist/index.js",
+  "scripts": {
+    "watch": "mkdirp dist && babel ./src/index.js --watch -o ./dist/index.js",
+    "build": "mkdirp dist && babel ./src/index.js -o ./dist/index.js",
+    "lint": "eslint ./src",
+    "prepublish": "npm run build",
+    "autod": "npm-check -s -u"
+  },
+  "keywords": [
+    "scrollspy",
+    "scroll",
+    "vue",
+    "vue2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuliang-Lee/vue-scrollspy.git"
+  },
+  "author": "morning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yuliang-Lee/vue-scrollspy/issues"
+  },
+  "homepage": "https://github.com/Yuliang-Lee/vue-scrollspy",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^8.0.3",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mkdirp": "^0.5.1"
+  }
+}
