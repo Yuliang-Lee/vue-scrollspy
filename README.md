@@ -2,7 +2,7 @@
 
 [![Vue 2.x](https://img.shields.io/badge/Vue-2.x-brightgreen.svg)](https://vuejs.org/v2/guide/)
 [![npm](https://img.shields.io/npm/v/@xlaoyu/vue-scrollspy.svg)](https://www.npmjs.com/package/@xlaoyu/vue-scrollspy)
-[![npm-downloades](https://img.shields.io/npm/dm/@xlaoyu/vue-scrollspy.svg)](https://www.npmjs.com/package/@xlaoyu/vue2-scrollspy)
+[![npm-downloades](https://img.shields.io/npm/dm/@xlaoyu/vue-scrollspy.svg)](https://www.npmjs.com/package/@xlaoyu/vue-scrollspy)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yuliang-Lee/vue-scrollspy/blob/master/LICENSE)
 
 Scrollspy, and animated scroll-to, for Vue2, extended [vue2-scrollspy](https://github.com/ibufu/vue2-scrollspy).
